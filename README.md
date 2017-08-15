@@ -7,6 +7,8 @@
 
 Run this application in OSX to launch [Atom](http://atom.io) using `~/.platformio-ide` as `ATOM_HOME` instead of the default `~/.atom`.  This allows you to have two separate setups for [Atom](http://atom.io), one specifically for [PlatformIO](http://platformio.org) and one for any other development purposes.
 
+See PlatformIO package discussion for more details and possible other setups and solutions: https://github.com/platformio/platformio-atom-ide/issues/158
+
 ## Why?
 I created this because I already use [Atom](http://atom.io) almost everyday for other programming purposes, and only wanted to load the [PlatformIO](http://platformio.org) and associated packages when I specifically needed it for [PlatformIO](http://platformio.org) Arduino coding purposes.
 
