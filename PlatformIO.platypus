@@ -53,7 +53,7 @@
 	<key>ScriptArgs</key>
 	<array/>
 	<key>ScriptPath</key>
-	<string>/Users/myles/Library/Application Support/Platypus//PlatformIO.sh</string>
+	<string>/Users/myles/cloud/dev/github/platformio-atom-osx/PlatformIO.sh</string>
 	<key>StatusItemDisplayType</key>
 	<string>Text</string>
 	<key>StatusItemIcon</key>
