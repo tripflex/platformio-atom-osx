@@ -15,14 +15,18 @@ This was created using the open source [Platypus](https://sveinbjorn.org/platypu
 
 ## FAQ
 
-1.) Can I run both standard Atom and PlatformIO Atom instances together?
+1. Where do I download it?
 
-⋅⋅⋅Unfortunately, no, not at this time.  Reason being is that it appears if an instance of Atom is already running, when we make the call to open another instance, it uses the same `ATOM_HOME` environment variable that is already set.
+   Go to the [Releases](https://github.com/tripflex/platformio-atom-osx/releases) page and download the `PlatformIO.app` file
 
-2.) How does this application find the Atom.app to use?
+2. Can I run both standard Atom and PlatformIO Atom instances together?
 
-⋅⋅⋅Just like in the shell script code used by the core of Atom, spotlight search is used to locate the correct `Atom.app` or whatever custom name you have used (it searches for `com.github.atom` bundle identifier)
+   Unfortunately, no, not at this time.  Reason being is that it appears if an instance of Atom is already running, when we make the call to open another instance, it uses the same `ATOM_HOME` environment variable that is already set.
 
-3.) It says I have to install Atom, but it's already installed?
+3. How does this application find the Atom.app to use?
 
-⋅⋅⋅Make sure you have moved the file to `Applications` and try again
+   Just like in the shell script code used by the core of Atom, spotlight search is used to locate the correct `Atom.app` or whatever custom name you have used (it searches for `com.github.atom` bundle identifier)
+
+4. It says I have to install Atom, but it's already installed?
+
+   Make sure you have moved the file to `Applications` and try again
